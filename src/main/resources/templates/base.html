@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div th:fragment="parent(section)">
+		<h2>this is fragment parent</h2>
+		<p>laurem ipsum content for the fragment</p>
+		<div th:replace="${section}"></div>
+	</div>
+</body>
+</html>
